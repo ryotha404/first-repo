@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle, #f3e5f5 0%, #622664 60%, #d7a5f7 100%);
+    margin: 0;
+    padding: 0;
+    color: #5b3b63;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #survey-form {
+    background-color: #ffffff;
+    max-width: 700;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(75, 59, 99, 0.2);
+    border: 1px solid #e0d6f0;
+  }
+  
+  label, legend {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #5f379b;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #bba4dc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #faf7ff;
+    color: #4b3b63;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #a78bdc;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  #submit {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submit:hover {
+    background-color: #218838;
+  }
