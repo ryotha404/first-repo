@@ -3,12 +3,13 @@ body {
     background: radial-gradient(circle, #f3e5f5 0%, #622664 60%, #d7a5f7 100%);
     margin: 0;
     padding: 0;
-    color: #5b3b63;
+    color: white;
 }
     
 h1, p {
     text-align: center;
     margin-top: 30px;
+    font-weight: bold;
 } 
     
 #survey-form {
@@ -18,7 +19,6 @@ h1, p {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(75, 59, 99, 0.2);
-    border: 1px solid #e0d6f0;
 }
     
 label, legend {
@@ -55,7 +55,8 @@ input[type="checkbox"] {
 }
     
 input::placeholder,
-textarea::placeholder {
+textarea::placeholder,
+select {
     color: #a78bdc;
 }
     
@@ -73,7 +74,7 @@ textarea {
     width: 100%;
     font-size: 16px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s, background-color 0.3s ease;
 }
     
 #submit:hover {
